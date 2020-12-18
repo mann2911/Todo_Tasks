@@ -16,6 +16,7 @@ const Addtask=(props)=>{
                 </thead> */}
                 <tbody>
                     <tr>
+                        <td width="50px"><input type="checkbox" onClick={props.checkboxclick}/>  </td>
                         <td width="300px"><h3>{props.value}</h3></td>
                         <td width="100px"><button onClick={props.editclick}>Edit</button></td>
                         <td width="100px"><button onClick={props.deleteclick}>Delete</button></td>
